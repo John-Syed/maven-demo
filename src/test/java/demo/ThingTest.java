@@ -10,8 +10,8 @@ public class ThingTest {
 
     @Test
     public void testUseRtree() {
-        RTree<String, Point> tree = RTree.<String, Point>create() //
-                .add("John Syed", Geometries.point(5, 10)) //
+        RTree<String, Point> tree = RTree.<String, Point>create() 
+                .add("John Syed", Geometries.point(5, 10));
                 .add("Pasha", Geometries.point(5, 10));
         tree.entries().forEach(System.out::println);
     }
