@@ -1,4 +1,4 @@
-package remo;
+package demoan;
 
 public class Thing {
 
