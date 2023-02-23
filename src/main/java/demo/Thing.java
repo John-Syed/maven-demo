@@ -1,4 +1,4 @@
-package demoan;
+package demo;
 
 public class Thing {
 
