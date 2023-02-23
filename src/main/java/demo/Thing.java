@@ -1,4 +1,4 @@
-package demo;
+package remo;
 
 public class Thing {
 
