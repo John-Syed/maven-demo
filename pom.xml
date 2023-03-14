@@ -9,7 +9,7 @@
     <version>0.9-SNAPSHOT</version>
 
     <name>${project.artifactId}</name>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
 
     <dependencies>
