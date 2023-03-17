@@ -18,14 +18,13 @@
             <artifactId>rxjava</artifactId>
             <version>1.2.2</version>
         </dependency>
-        
         <dependency>
            <groupId>org.apache.maven.plugins</groupId>
            <artifactId>maven-war-plugin</artifactId>
            <version>3.3.2</version>
            <type>maven-plugin</type>
         </dependency>
-
+        
         <dependency>
             <groupId>com.github.davidmoten</groupId>
             <artifactId>rtree</artifactId>
@@ -56,6 +55,10 @@
                       </compilerArgs>
               </configuration>
            </plugin>
+            <plugin>
+                    <artifactId>maven-war-plugin</artifactId>
+                    <version>3.3.2</version>
+            </plugin>
         </plugins>
     </build>
 
